@@ -1,0 +1,153 @@
+html, body {
+    height: 100%;
+}
+
+body {
+  background-color: #efefef;
+  overflow: hidden;
+}
+
+h1 {
+  color: #d66853;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+}
+
+h2 {
+    color: #d66853;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+  }
+
+p {
+  color: #d66853; 
+  text-align: center;
+  font-family: 'Courier New';
+}
+
+#board {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+
+    background-color: #efefef;
+    border: 6px solid #007991;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 90.67px;
+    height: 90.6px;
+    border: 5px solid #007991;
+    
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ALRIGTH, HERE COMES THE COLORS */
+
+.nothing {
+    background-color: #efefef;
+}
+
+.da { 
+    background-color: #7085c2; 
+    color: #363636; 
+}
+
+.yoda { 
+    background-color: #dbe1f0; 
+    color: #363636; 
+}
+
+.dad { 
+    background-color: #c9d1e8; 
+    color: #363636; 
+}
+
+.yodad { 
+    background-color: #b7c2e1; 
+    color: #363636; 
+}
+
+.dada { 
+    background-color: #a6b3d9; 
+    color: #363636; 
+}
+
+.yodada { 
+    background-color: #94a4d1; 
+    color: #363636; 
+}
+
+.dadada { 
+    background-color: #8295ca; 
+    color: #363636; 
+}
+
+.yodada-da { 
+    background-color: #7085c2; 
+    color: #363636; 
+}
+
+.dada-dada { 
+    background-color: #5e76bb; 
+    color: #efefef; 
+}
+
+.yodada-dada { 
+    background-color: #4c67b3; 
+    color: #efefef; 
+}
+
+.dada-dada8 { 
+    background-color: #445da1; 
+    color: #efefef; 
+}
+
+.pops { 
+    background-color: #3d528f; 
+    color: #efefef; 
+}
+
+.popah { 
+    background-color: #35487d; 
+    color: #efefef; 
+}
+
+.popeye { 
+    background-color: #2e3e6b; 
+    color: #efefef; 
+}
+
+.daddy { 
+    background-color: #263359; 
+    color: #efefef; 
+}
+
+.godaddy { 
+    background-color: #1e2948; 
+    color: #efefef; 
+}
+
+.max { 
+    background-color: #171f36; 
+    color: #efefef; 
+}
+
+.this { 
+    background-color: #0f1524; 
+    color: #efefef; 
+}
+
+.huh { 
+    background-color: #080a12; 
+    color: #efefef; 
+}
+
